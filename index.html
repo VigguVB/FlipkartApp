@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="home.js"></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
         <div class="nav">
             <div id="account">
                 <span>My Account <i class="fa fa-angle-down"></i></span>
-                <ul class="accountHoverDiv">
+                <ul class="accountHoverDiv  list">
                     <li> <i class="fa fa-user-circle-o checked"></i> My Profile</li>
                     <li><i class="fa fa-bolt checked"></i> SuperCoin Zone</li>
                     <li><i class="fa fa-shopping-bag checked"></i> Orders</li>
@@ -40,7 +41,7 @@
             </div>
             <div id="more">
                 <span>More <i class="fa fa-angle-down"></i></span>
-                <ul class="moreHoverDiv">
+                <ul class="moreHoverDiv  list">
                     <li> <i class="fa fa-bell-o checked"></i> Notifications</li>
                     <li><i class="fa fa-briefcase checked"></i>Sell on Flipkart</li>
                     <li><i class="fa fa-headphones checked"></i>24 x 7 Customer Care</li>
@@ -53,15 +54,22 @@
             <div id="cart">
                 <i class="fa fa-shopping-cart"></i>
                 <span>Cart</span>
+                <div id="modecontainer">
+                    <img src="https://i.ibb.co/MsHMbvB/logo-dark-mode.png" alt="darkmode" class="mode-button light" onclick="darkMode()" />
+                    <img src="https://i.ibb.co/gjz9tkd/3591906.png" class="mode-button dark" onclick="lightMode()" />
+                </div>
+           
+                
+               
             </div>
-
+          
         </div>
     </div>
     <div id="homescroll">
 
-        <div class="quicksearch">
+        <div class="quicksearch  list">
             <div class="quickdiv">
-                <img src="https://i.ibb.co/nRvQThL/topoffers.png" alt="Top Offers" />
+                <img src="https://i.ibb.co/vzSkx4g/top.png" alt="Top Offers" />
                 <ul>
                     <li style="margin-left: 2%;" class="menu">Offers</li>
                 </ul>
@@ -73,19 +81,19 @@
                 </ul>
             </div>
             <div class="quickdiv">
-                <img src="https://i.ibb.co/74RBbfs/mobiles.png" alt="mobiles" />
+                <img src="https://i.ibb.co/W6mj0C2/mobiles.png" alt="mobiles" />
                 <ul>
                     <li class="menu">Mobiles</li>
                 </ul>
             </div>
             <div id="fashions" class="quickdiv">
-                <img src="https://i.ibb.co/LQ7VQ3H/fashion.jpg" alt="fashions" />
+                <img src="https://i.ibb.co/HGsSH6n/fashion.png" alt="fashions" />
                 <ul>
                     <li style="margin-left: -6%;" class="menu">Fashions <i class="fa fa-angle-down"></i></li>
                     <div>
-                        <ul class="fashionHoverDiv">
+                        <ul class="fashionHoverDiv list">
                             <li id="menTop">Men's Top wear <i class="fa fa-angle-right right"></i>
-                                <ul class="menTopWear">
+                                <ul class="menTopWear list">
                                     <li>All</li>
                                     <li>Men's T-Shirts</li>
                                     <li>Men's Casual-Shirts</li>
@@ -100,7 +108,7 @@
                                 </ul>
                             </li>
                             <li id="bottomMen">Men's Bottom wear <i class="fa fa-angle-right right"></i>
-                                <ul class="menBottomWear">
+                                <ul class="menBottomWear list">
                                     <li>All</li>
                                     <li>Men's Jeans</li>
                                     <li>Men's Trousers</li>
@@ -114,7 +122,7 @@
                                 </ul>
                             </li>
                             <li id="womenEthenic">Women Ethenic <i class="fa fa-angle-right right"></i>
-                                <ul class="womenEthenicWear">
+                                <ul class="womenEthenicWear list">
                                     <li>All</li>
                                     <li>Women Sarees</li>
                                     <li>Women Kurtas & kurtis</li>
@@ -130,7 +138,7 @@
                                 </ul>
                             </li>
                             <li id="womenWestern">Women Western <i class="fa fa-angle-right right"></i>
-                                <ul class="womenWesternWear">
+                                <ul class="womenWesternWear list">
                                     <li>All</li>
                                     <li>Women Tops</li>
                                     <li>Women Dresses</li>
@@ -146,7 +154,7 @@
                                 </ul>
                             </li>
                             <li id="menFootwear">Men Footwear <i class="fa fa-angle-right right"></i>
-                                <ul class="mensFootwear">
+                                <ul class="mensFootwear list">
                                     <li>All</li>
                                     <li>Men's Sports Shoes</li>
                                     <li>Men's Casual Shoes</li>
@@ -160,7 +168,7 @@
                                 </ul>
                             </li>
                             <li id="womenFootwear">Women Footwear <i class="fa fa-angle-right right"></i>
-                                <ul class="womensFootwear">
+                                <ul class="womensFootwear list">
                                     <li>All</li>
                                     <li>Women Tops</li>
                                     <li>Women Dresses</li>
@@ -176,7 +184,7 @@
                                 </ul>
                             </li>
                             <li id="watch">Watches and Accessories <i class="fa fa-angle-right right"></i>
-                                <ul class="watches">
+                                <ul class="watches list">
                                     <li>Men & Women Watches</li>
                                     <li>Men & Women Sunglasses</li>
                                     <li>Wallets</li>
@@ -190,7 +198,7 @@
                                 </ul>
                             </li>
                             <li id="luggages">Bags, suitacses & Luggages <i class="fa fa-angle-right right"></i>
-                                <ul class="bags">
+                                <ul class="bags list">
                                     <li>All</li>
                                     <li>Backpacks</li>
                                     <li>Suitcases & Trolleys</li>
@@ -204,7 +212,7 @@
                                 </ul>
                             </li>
                             <li id="fashionkids">Kids <i class="fa fa-angle-right right"></i>
-                                <ul class="fashionkids">
+                                <ul class="fashionkids list">
                                     <li>All</li>
                                     <li>Girls Dresses</li>
                                     <li>Boys & Girls Tshirts</li>
@@ -220,7 +228,7 @@
                                 </ul>
                             </li>
                             <li id="essentials">Essentials <i class="fa fa-angle-right right"></i>
-                                <ul class="essentials">
+                                <ul class="essentials list">
                                     <li>Men's Briefs % Trunks</li>
                                     <li>Men's Vests</li>
                                     <li>Men's Boxers</li>
@@ -236,7 +244,7 @@
                                 </ul>
                             </li>
                             <li id="winter">Winter <i class="fa fa-angle-right right"></i>
-                                <ul class="winter">
+                                <ul class="winter list">
                                     <li>All</li>
                                     <li>Men's Jackets</li>
                                     <li>Mens's Sweatshirts</li>
@@ -262,9 +270,9 @@
                 <img src="https://i.ibb.co/pnkpFtb/electroinic.png" alt="electronics" />
                 <ul>
                     <li style="margin-left: -8%;" class="menu">Electronics <i class="fa fa-angle-down"></i></li>
-                    <ul class="elecHoverDiv">
+                    <ul class="elecHoverDiv list">
                         <li id="audio">Audio <i class="fa fa-angle-right right"></i>
-                            <ul class="audio">
+                            <ul class="audio list">
                                 <li>All</li>
                                 <li>Bluetooth Headphones</li>
                                 <li>Wired Headphones</li>
@@ -281,7 +289,7 @@
                         </li>
                         <li>Electronics GST Store</li>
                         <li id="camera">Cameras & Accessories <i class="fa fa-angle-right right"></i>
-                            <ul class="camera">
+                            <ul class="camera list">
                                 <li>All</li>
                                 <li>DSLR & Mirrorless</li>
                                 <li>Sports & Action</li>
@@ -296,38 +304,147 @@
                                 <li>Binoculars</li>
                             </ul>
                         </li>
-                        <li>Computer Peripherals <i class="fa fa-angle-right right"></i></li>
-                        <li>Gaming <i class="fa fa-angle-right right"></i></li>
-                        <li>Health & Personal Care <i class="fa fa-angle-right right"></i></li>
-                        <li>Laptop Accessories <i class="fa fa-angle-right right"></i></li>
-                        <li>Mobile Accessories <i class="fa fa-angle-right right"></i></li>
-                        <li>Powerbank <i class="fa fa-angle-right right"></i></li>
-                        <li>Smart Home Automation <i class="fa fa-angle-right right"></i></li>
-                        <li>Smart Wearables <i class="fa fa-angle-right right"></i></li>
+                        <li id="peripherals">Computer Peripherals <i class="fa fa-angle-right right"></i>
+                            <ul class="peripherals list">
+                                <li>All</li>
+                                <li>Printers</li>
+                                <li>Monitors</li>
+                                <li>Projectors</li>
+                                <li>Portable Projectors</li>
+                                <li>Toners</li>
+                                <li>Ink Catridges</li>
+                                <li>Ink Bottles</li>
+                                <li>Receipt Printers</li>
+                                <li>Lamination Machines</li>
+                                <li>Note Counting Machines</li>
+                                <li>Barcode Scanners</li>
+                            </ul>
+                        </li>
+                        <li id="gaming">Gaming <i class="fa fa-angle-right right"></i>
+                            <ul class="gaming list">
+                                <li>All</li>
+                                <li>Gaming Consoles</li>
+                                <li>Gaming Mouse</li>
+                                <li>Gaming Keyboards</li>
+                                <li>Games</li>
+                                <li>Accessory Kits</li>
+                                <li>Gaming Accessories Combo</li>
+                                <li>Gaming Mousepads</li>
+                                <li>Membership Cards</li>
+                                <li>Controllers</li>
+                                <li>Other Gaming Accessories</li>
+                                <li>Gaming Components</li>
+                            </ul>
+                        </li>
+                        <li id="personal">Health & Personal Care <i class="fa fa-angle-right right"></i>
+                            <ul class="personal list">
+                                <li>All</li>
+                                <li>Trimmers</li>
+                                <li>Shavers</li>
+                                <li>Har Straighteners</li>
+                                <li>Hair dryers</li>
+                                <li>Epilators</li>
+                                <li>Glucometers & Accesories</li>
+                                <li>Blood Pressure Monitors</li>
+                                <li>Digital Thermometers</li>
+                                <li>Weighing Scales</li>
+                                <li>Massagers</li>
+                                <li>Nebulizers</li>
+                                <li>Vapourizers</li>
+                            </ul>
+                        </li>
+                        <li id="lap-accessories">Laptop Accessories <i class="fa fa-angle-right right"></i>
+                            <ul class="lap-accessories list">
+                                <li>All</li>
+                                <li>Mouse</li>
+                                <li>Laptop Keyboards</li>
+                                <li>Router</li>
+                                <li>Data Card</li>
+                                <li>UPS</li>
+                                <li>USB Gadgets</li>
+                                <li>Security Software</li>
+                                <li>Laptop Battery</li>
+                                <li>Laptop Adapter</li>
+                                <li>Wireless USB Adapter</li>
+                                <li>Processor</li>
+                                <li>Other Accessories</li>
+                            </ul>
+                        </li>
+                        <li id="lap-desktop">Laptop & Desktop <i class="fa fa-angle-right right"></i>
+                            <ul class="lap-desktop list">
+                                <li>All</li>
+                                <li>Laptops</li>
+                                <li>Gaming Laptops</li>
+                                <li>Desktop PCs</li>
+                                <li>All In One PCs</li>
+                                <li>Mini PCs</li>
+                                <li>Tower PCs</li>
+                                <li>PC Finder</li>
+                                <li>GST Invoice on Laptops</li>
+                                <li>Laptop Buying Guide</li>
+                            </ul>
+                        </li>
+                        <li id="mobile-accesory">Mobile Accesory <i class="fa fa-angle-right right"></i>
+                            <ul class="mobile-accesory list">
+                                <li>All</li>
+                                <li>Plain Cases</li>
+                                <li>Designer Cases</li>
+                                <li>Screen Guards</li>
+                                <li>Camera Lens Protectors</li>
+                                <li>Tablet Accessories</li>
+                                <li>Mobile Cable</li>
+                                <li>Mobile Charger</li>
+                                <li>Mobile Pouches</li>
+                                <li>Mobile Flash</li>
+                                <li>Mobile Holder</li>
+                                <li>Mobile USB Gadget</li>
+                                <li>Mobile Accesories Combo</li>
+                            </ul>
+                        </li>
+                        <li>Powerbank</li>
+                        <li id="smart-home">Smart Home Automation <i class="fa fa-angle-right right"></i>
+                            <ul class="smart-home list">
+                                <li>All</li>
+                                <li>Smart Assistants</li>
+                                <li>Smart Lights</li>
+                                <li>Smart Cameras</li>
+                                <li>Smart Switches</li>
+                                <li>Smart Door Locks</li>
+                                <li>Sensors & Alarms</li>
+                            </ul>
+                        </li>
+                        <li id="smart-wearables">Smart Wearables <i class="fa fa-angle-right right"></i>
+                            <ul class="smart-wearables list">
+                                <li>All</li>
+                                <li>Smart Watches</li>
+                                <li>Smart Bands</li>
+                                <li>Smart Glasses</li>
+                            </ul>
+                        </li>
                         <li>Storage <i class="fa fa-angle-right right"></i></li>
                     </ul>
                 </ul>
             </div>
             <div class="quickdiv">
-                <img src="https://i.ibb.co/prSRqQT/furniture.jpg" alt="home" />
+                <img src="https://i.ibb.co/VC64x3K/furniture05.png" alt="home" />
                 <ul style="margin-left: 0.5%;">
                     <li style="margin-left: -5%;" class="menu">Home <i class="fa fa-angle-down"></i></li>
                 </ul>
             </div>
             <div class="quickdiv">
-                <img src="https://i.ibb.co/GC60Vb0/appliances.jpg" alt="appliances" />
+                <img src="https://i.ibb.co/PgcTtJH/appliance.png" alt="appliances" />
                 <ul>
                     <li style="margin-left: -7%;" class="menu">Appliances <i class="fa fa-angle-down"></i></li>
                 </ul>
             </div>
             <div class="quickdiv">
-                <img src="https://i.ibb.co/rQ0n1Wt/plane.jpg" alt="travel" />
+                <img src="https://i.ibb.co/mFd2KCk/11-plane-png-image.png" alt="travel" width="180px"/>
                 <ul>
                     <li style="margin-left: 22%;" class="menu">Travel</li>
                 </ul>
             </div>
             <div class="quickdiv">
-                <img src="https://i.ibb.co/9TtsBzG/toys.png" alt="toys" />
+                <img src="https://i.ibb.co/6XL187h/dff3f7adcf3a90c6.png" alt="toys" />
                 <ul style="text-align: center; margin-left: -2%;">
                     <li style="margin-left: -5%;" class="menu">Beauty, Toys & more <i class="fa fa-angle-down"></i></li>
                 </ul>
@@ -359,10 +476,15 @@
                 <span id="right" class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
+        <div class="marquee  list" >
+            <marquee scrollamount="12">
+                <h1 id="marquee">We offer you variety of products with home delivery, its your time to make best choices of your needs</h1>
+            </marquee>
+        </div>
         <!-- Deals of the Day -->
-        <div class="dealsContainer">
-            <div class="containerHeader">
-                <span class="heading">Deals of the Day</span>
+        <div class="dealsContainer  list">
+            <div class="containerHeader list">
+                <span class="heading list">Deals of the Day</span>
                 <button class="viewbtn">VIEW ALL</button>
             </div>
             <div class="dealitemsContainer">
@@ -373,7 +495,7 @@
                     <div class="contents">
                         <p class="description">Best deals in Groceries</p>
                         <p class="off">Upto 50% Off</p>
-                        <p class="items">Rice, Aata & more</p>
+                        <p class="items list">Rice, Aata & more</p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -383,7 +505,7 @@
                     <div class="contents">
                         <p class="description">Wrogn, provogue & More</p>
                         <p class="off">Upto 80% Off</p>
-                        <p class="items">Bestselling Wallets & Belts</p>
+                        <p class="items list">Bestselling Wallets & Belts</p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -393,7 +515,7 @@
                     <div class="contents">
                         <p class="description">Sparx, Bata & More</p>
                         <p class="off">Upto 65% Off</p>
-                        <p class="items">Casual Shoes for Men</p>
+                        <p class="items list">Casual Shoes for Men</p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -403,7 +525,7 @@
                     <div class="contents">
                         <p class="description">Kurtas, Sets & More</p>
                         <p class="off">Under₹499+Extra10%Off</p>
-                        <p class="items">Libas, Aurelia & More</p>
+                        <p class="items list">Libas, Aurelia & More</p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -413,7 +535,7 @@
                     <div class="contents">
                         <p class="description">Badminton Racquet & More</p>
                         <p class="off">Upto 70% Off</p>
-                        <p class="items">Li-Ning, Yonex & more</p>
+                        <p class="items list">Li-Ning, Yonex & more</p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -423,7 +545,7 @@
                     <div class="contents">
                         <p class="description">Home & Kitchen Appliances</p>
                         <p class="off">Upto 55% Off</p>
-                        <p class="items">Best Sellings!</p>
+                        <p class="items list">Best Sellings!</p>
                     </div>
                 </div>
 
@@ -431,9 +553,9 @@
 
         </div>
         <!-- Recommendations for you -->
-        <div class="dealsContainer">
-            <div class="containerHeader">
-                <span class="heading">Recommended Items</span>
+        <div class="dealsContainer  list">
+            <div class="containerHeader list">
+                <span class="heading list">Recommended Items</span>
                 <button class="viewbtn">VIEW ALL</button>
             </div>
             <div class="dealitemsContainer">
@@ -444,7 +566,7 @@
                     <div class="contents">
                         <p class="description">Sarang Pack of 1 Baking Roller</p>
                         <p class="off">64% Off</p>
-                        <p class="items2">₹174<strike>₹499</strike></p>
+                        <p class="items2 list">₹174<strike>₹499</strike></p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -454,7 +576,7 @@
                     <div class="contents">
                         <p class="description">Noble foods Baking Roller</p>
                         <p class="off">59% Off</p>
-                        <p class="items2">₹201<strike>₹499</strike></p>
+                        <p class="items2 list">₹201<strike>₹499</strike></p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -464,7 +586,7 @@
                     <div class="contents">
                         <p class="description">Flair Pack of 1 Baking Roller</p>
                         <p class="off">50% Off</p>
-                        <p class="items2">₹299<strike>₹599</strike></p>
+                        <p class="items2 list">₹299<strike>₹599</strike></p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -474,7 +596,7 @@
                     <div class="contents">
                         <p class="description">Dhamuru Baking Roller</p>
                         <p class="off"> 25% Off</p>
-                        <p class="items2">₹599<strike>₹799</strike></p>
+                        <p class="items2 list">₹599<strike>₹799</strike></p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -484,7 +606,7 @@
                     <div class="contents">
                         <p class="description">Dhamuru Roller</p>
                         <p class="off">36% Off</p>
-                        <p class="items2">₹315<strike>₹499</strike></p>
+                        <p class="items2 list">₹315<strike>₹499</strike></p>
                     </div>
                 </div>
                 <div class="dealitem">
@@ -494,7 +616,7 @@
                     <div class="contents">
                         <p class="description">SBME Pack of 1 Baking Roller</p>
                         <p class="off">44% Off</p>
-                        <p class="items2">₹499<strike>₹899</strike></p>
+                        <p class="items2 list">₹499<strike>₹899</strike></p>
                     </div>
                 </div>
 
@@ -502,7 +624,7 @@
 
         </div>
 
-        <div class="terms-div">
+        <div class="terms-div list">
             <h2>Top Stories:Brand Directory</h2>
             <p>MOST SEARCHED FOR ON FLIPKART:OPPO A16KVivo Y33TOPPO Reno7 5GOPPO Reno7 Pro 5GiPhone 13iPhone 13
                 ProiPhone 13
