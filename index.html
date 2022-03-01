@@ -13,7 +13,7 @@
     <script src="home.js"></script>
 </head>
 
-<body>
+<body onload="loginHandler()">
     <div class="headerdiv">
         <div id="name">
             <i>Flipkart</i>
@@ -26,9 +26,10 @@
             <i class="fa fa-search checked"></i>
         </div>
         <div class="nav">
+
             <div id="account">
-                <span>My Account <i class="fa fa-angle-down"></i></span>
-                <ul class="accountHoverDiv  list">
+                <span onclick="loginClicked()" id="loginName">My Account</span>
+                <ul class="accountHoverDiv list">
                     <li> <i class="fa fa-user-circle-o checked"></i> My Profile</li>
                     <li><i class="fa fa-bolt checked"></i> SuperCoin Zone</li>
                     <li><i class="fa fa-shopping-bag checked"></i> Orders</li>
@@ -52,7 +53,7 @@
             </div>
 
             <div id="cart">
-                <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-shopping-cart"></i> 
                 <span>Cart</span>
                 <div id="modecontainer">
                     <img src="https://i.ibb.co/MsHMbvB/logo-dark-mode.png" alt="darkmode" class="mode-button light" onclick="darkMode()" />
@@ -425,6 +426,10 @@
                     </ul>
                 </ul>
             </div>
+
+
+
+            
             <div class="quickdiv">
                 <img src="https://i.ibb.co/VC64x3K/furniture05.png" alt="home" />
                 <ul style="margin-left: 0.5%;">
@@ -450,7 +455,7 @@
                 </ul>
             </div>
         </div>
-        <div id="myslider" class="carousel slide" data-ride="carousel"
+        <div style="z-index: -50;" id="myslider" class="carousel slide" data-ride="carousel"
             style="width: 100%; height: 250px;margin-left: 0;">
             <ol class="carousel-indicators">
                 <li data-target="#myslider" data-slide-to="0" class="active"></li>
@@ -481,6 +486,42 @@
                 <h1 id="marquee">We offer you variety of products with home delivery, its your time to make best choices of your needs</h1>
             </marquee>
         </div>
+     
+        <div id="loginModal" class="container1">
+            <div class="subContainer">
+                <h1>Login</h1>
+                <div class="info">
+                    <span>
+                        Get access to your Orders, Wishlist and Recommendations
+                    </span>
+                </div>
+                <div id="logodiv">
+                    <img src="https://i.ibb.co/7YQg0Ty/444-4447300-grocery-bag-clip-art.png" alt="cartLogo" />
+                </div>
+    
+            </div>
+            <div class="maincontainer">
+              <span onclick="closeModal()" id="close"><i class="fa fa-close"></i></span> 
+                <form action="#" id="form" class="loginform">
+                    <input id="enteredUser" placeholder="Enter Email/MobileNumber" type="text" />
+                    <input id="enteredpassword" placeholder="Enter Password" type="password" />
+                    <div class="forgotpass"><a href="">Forgot Password ?</a></div>
+                    <div class="terms">By continuing, you agree to Flipkart's <a href="">Terms of Use</a> and <a
+                            href="">Privacy Policy</a> .</div>
+                        
+                    <button onclick="validateLogin()" id="formlogin" class="login">LOGIN</button>
+                    <div style="text-align: center;color: gray;font-size: 17px;font-weight: bold;margin-top: 5%;">
+                        OR
+                    </div>
+                    <button class="otp">GET OTP</button>
+                    <div class="signuplink">
+                        <a href="./signup1.html">New to Flipkart? Create an account</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
         <!-- Deals of the Day -->
         <div class="dealsContainer  list">
             <div class="containerHeader list">
