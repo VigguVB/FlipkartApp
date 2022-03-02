@@ -68,10 +68,14 @@ function validateLogin() {
 }
 
 const closeModal = () => {
+  var a = document.getElementById('loginName').innerText;
   var loginModal = document.getElementById("loginModal");
   var accountlist = document.getElementsByClassName('accountHoverDiv');
   loginModal.style.display = "none";
-  accountlist[0].style.display = "block";
+  if(a==="My Account"){
+    accountlist[0].style.display = "block";
+  }
+  
   document.body.style.backgroundColor = "white";
   document.getElementById('marquee').style.display = "block";
 }

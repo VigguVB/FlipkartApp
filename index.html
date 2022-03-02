@@ -14,6 +14,7 @@
 </head>
 
 <body onload="loginHandler()">
+    
     <div class="headerdiv">
         <div id="name">
             <i>Flipkart</i>
@@ -25,47 +26,44 @@
             <input id="searchbar" placeholder="Search for products, brands and more" />
             <i class="fa fa-search checked"></i>
         </div>
-        <div class="nav">
 
-            <div id="account">
-                <span onclick="loginClicked()" id="loginName">My Account</span>
-                <ul class="accountHoverDiv list">
-                    <li> <i class="fa fa-user-circle-o checked"></i> My Profile</li>
-                    <li><i class="fa fa-bolt checked"></i> SuperCoin Zone</li>
-                    <li><i class="fa fa-shopping-bag checked"></i> Orders</li>
-                    <li><i class="fa fa-heart checked"></i> Wishlist</li>
-                    <li><i class="fa fa-vcard checked"></i> My Chats</li>
-                    <li><i class="fa fa-ticket checked"></i> Coupons</li>
-                    <li><i class="fa fa-drivers-license checked"></i> Gift Cards</li>
-                    <li><i class="fa fa-power-off checked"></i> Logout</li>
-                </ul>
-            </div>
-            <div id="more">
-                <span>More <i class="fa fa-angle-down"></i></span>
-                <ul class="moreHoverDiv  list">
-                    <li> <i class="fa fa-bell-o checked"></i> Notifications</li>
-                    <li><i class="fa fa-briefcase checked"></i>Sell on Flipkart</li>
-                    <li><i class="fa fa-headphones checked"></i>24 x 7 Customer Care</li>
-                    <li><i class="fa fa-line-chart checked"></i>Advertise</li>
-                    <li><i class="fa fa-download checked"></i>Download App</li>
-                </ul>
 
-            </div>
+        <div id="account">
+            <span onclick="loginClicked()" id="loginName">My Account</span>
+            <ul class="accountHoverDiv list">
+                <li> <i class="fa fa-user-circle-o checked"></i> My Profile</li>
+                <li><i class="fa fa-bolt checked"></i> SuperCoin Zone</li>
+                <li><i class="fa fa-shopping-bag checked"></i> Orders</li>
+                <li><i class="fa fa-heart checked"></i> Wishlist</li>
+                <li><i class="fa fa-vcard checked"></i> My Chats</li>
+                <li><i class="fa fa-ticket checked"></i> Coupons</li>
+                <li><i class="fa fa-drivers-license checked"></i> Gift Cards</li>
+                <li><i class="fa fa-power-off checked"></i> Logout</li>
+            </ul>
+        </div>
+        <div id="more">
+            <span>More <i class="fa fa-angle-down"></i></span>
+            <ul class="moreHoverDiv  list">
+                <li> <i class="fa fa-bell-o checked"></i> Notifications</li>
+                <li><i class="fa fa-briefcase checked"></i>Sell on Flipkart</li>
+                <li><i class="fa fa-headphones checked"></i>24 x 7 Customer Care</li>
+                <li><i class="fa fa-line-chart checked"></i>Advertise</li>
+                <li><i class="fa fa-download checked"></i>Download App</li>
+            </ul>
 
-            <div id="cart">
-                <i class="fa fa-shopping-cart"></i> 
-                <span>Cart</span>
-                <div id="modecontainer">
-                    <img src="https://i.ibb.co/MsHMbvB/logo-dark-mode.png" alt="darkmode" class="mode-button light" onclick="darkMode()" />
-                    <img src="https://i.ibb.co/gjz9tkd/3591906.png" class="mode-button dark" onclick="lightMode()" />
-                </div>
-           
-                
-               
+        </div>
+
+        <div id="cart">
+            <i class="fa fa-shopping-cart"></i>
+            <span>Cart</span>
+            <div id="modecontainer">
+                <img src="https://i.ibb.co/MsHMbvB/logo-dark-mode.png" alt="darkmode" class="mode-button light"
+                    onclick="darkMode()" />
+                <img src="https://i.ibb.co/gjz9tkd/3591906.png" class="mode-button dark" onclick="lightMode()" />
             </div>
-          
         </div>
     </div>
+
     <div id="homescroll">
 
         <div class="quicksearch  list">
@@ -267,7 +265,7 @@
                 </ul>
 
             </div class="quickdiv">
-            <div id="electronics"  class="quickdiv">
+            <div id="electronics" class="quickdiv">
                 <img src="https://i.ibb.co/pnkpFtb/electroinic.png" alt="electronics" />
                 <ul>
                     <li style="margin-left: -8%;" class="menu">Electronics <i class="fa fa-angle-down"></i></li>
@@ -422,39 +420,207 @@
                                 <li>Smart Glasses</li>
                             </ul>
                         </li>
-                        <li>Storage <i class="fa fa-angle-right right"></i></li>
+                        <li id="storage">Storage <i class="fa fa-angle-right right"></i>
+                            <ul class="storage">
+                                <li>All</li>
+                                <li>Memory Card</li>
+                                <li>Computer Stoarge Pendrive</li>
+                                <li>Mobile Stoarge Pendrive</li>
+                                <li>External Hard Drive</li>
+                                <li>Internal Hard Drive</li>
+                            </ul>
+                        </li>
                     </ul>
                 </ul>
             </div>
 
 
 
-            
-            <div class="quickdiv">
+
+            <div id="home" class="quickdiv">
                 <img src="https://i.ibb.co/VC64x3K/furniture05.png" alt="home" />
                 <ul style="margin-left: 0.5%;">
                     <li style="margin-left: -5%;" class="menu">Home <i class="fa fa-angle-down"></i></li>
-                </ul>
+                    <ul class="homeHoverDiv list">
+                        <li id="homeFurnishing">Home Furnishings<i class="fa fa-angle-right right"></i>
+                            <ul class="homeFurnishing list">
+                                <li>All</li>
+                                <li>Bed Linens</li>
+                                <li>Bedsheets</li>
+                                <li>Blankets</li>
+                                <li>Curtains & Accesories</li>
+                                <li>Bath Linen</li>
+                                <li>Floor Coverings</li>
+                                <li>Covers & Protectors</li>
+                                <li>Cusions & Pillows</li>
+                                <li>Kitchen Linen Sets</li>
+                                <li>Table Linen Sets</li>
+                                <li>Sofa & Curtain Fabrics</li>
+                            </ul>
+                        </li>
+                        <li id="livingRoom">Living Room<i class="fa fa-angle-right right"></i>
+                            <ul class="livingRoom list">
+                                <li>All</li>
+                                <li>Softa Sets & Sectionals</li>
+                                <li>TV Units</li>
+                                <li>Dining Sets</li>
+                                <li>Cofee Tables</li>
+                                <li>Sofa Beds</li>
+                                <li>Recliners</li>
+                                <li>Living Room Chairs</li>
+                                <li>Cabinets and Drawers</li>
+                                <li>Book Shelves</li>
+                                <li>Shoe Racks</li>
+                                <li>Office Tables</li>
+                                <li>Office Chairs</li>
+                            </ul>
+                        </li>
+                        <li id="kitchen">Kitchen & Dining<i class="fa fa-angle-right right"></i>
+                            <ul class="kitchen list">
+                                <li>All</li>
+                                <li>Cookware</li>
+                                <li>Lunchboxes, Bottles & Flasks</li>
+                                <li>Knives, Choppers & Cutters</li>
+                                <li>Gas Stoves & Accessories</li>
+                                <li>Kitchen Tools</li>
+                                <li>Tableware & Dinnerware</li>
+                                <li>Containers & Kitchen Storage</li>
+                                <li>Barware</li>
+                                <li>Bakeware</li>
+                                <li>Hand Juicers & Grinders</li>
+                                <li>Disposable Supplies</li>
+                                <li>Outdoor Cooking</li>
+                            </ul>
+                        </li>
+
+                        <li id="homeDecor">Home Decor<i class="fa fa-angle-right right"></i>
+                            <ul class="homeDecor list">
+                                <li>All</li>
+                                <li>Lightings</li>
+                                <li>Stickers & Wallpapers</li>
+                                <li>Paintings & Posters</li>
+                                <li>Clocks</li>
+                                <li>Showpieces & Decoratives</li>
+                                <li>Wall Decor</li>
+                                <li>Flowers & Vases</li>
+                                <li>Home Fragrances</li>
+                                <li>Windchimes & Dreamcatchers</li>
+                                <li>Photo Frames & Albums</li>
+                                <li>Diyas, Candles & Holders</li>
+                                <li>Festive & Gifting</li>
+                            </ul>
+                        </li>
+                        <li id="tools">Tools & Utility<i class="fa fa-angle-right right"></i>
+                            <ul class="tools list">
+                                <li>All</li>
+                                <li>Hand Tools</li>
+                                <li>Power Tools</li>
+                                <li>Measuring Tools</li>
+                                <li>Home Storage & Organizers</li>
+                                <li>Umbrellas</li>
+                                <li>Appliance Trolley & Stands</li>
+                                <li>Cloth Drier Stand</li>
+                                <li>Appliance Filter & Catridges</li>
+                                <li>Laundry Organization</li>
+                                <li>Lock & Security</li>
+                                <li>Fire & Personal safety</li>
+                                <li>Paint Supplies & Equipments</li>
+                            </ul>
+                        </li>
+                        <li id="lightings">Lightings & Electricals<i class="fa fa-angle-right right"></i>
+                            <ul class="lightings list">
+                                <li>All</li>
+                                <li>Bulbs</li>
+                                <li>Emergency Lights</li>
+                                <li>Torches</li>
+                                <li>Tubelighgts</li>
+                                <li>Extension Cords</li>
+                                <li>Outdoor Lamps</li>
+                                <li>Batteries</li>
+                                <li>ElectricWire</li>
+                                <li>Electrical Socket</li>
+                                <li>Electrical Door Bell</li>
+                                <li>Solar Light, Panel & Batteries</li>
+                                <li>Electrical Hardware</li>
+                            </ul>
+                        </li>
+                        <li id="space">Space Saving<i class="fa fa-angle-right right"></i>
+                            <ul class="space list">
+                                <li>All</li>
+                                <li>Portable Laptop Tables</li>
+                                <li>Collapsible Wardrobes</li>
+                                <li>Bean Bags & Covers</li>
+                                <li>Cabinet Drawers</li>
+                                <li>Inflatable Sofas</li>
+                                <li>Hammock Swings</li>
+                                <li>Home Temples</li>
+                                <li>TV Mounts</li>
+                                <li>Kitchen Trolley</li>
+                                <li>Kitchen Cabinet</li>
+                            </ul>
+                        </li>
+                        <li id="cleaning">Cleaning & Bath<i class="fa fa-angle-right right"></i>
+                            <ul class="cleaning list">
+                                <li>All</li>
+                                <li>Mops</li>
+                                <li>Cleaning Supplies</li>
+                                <li>House Hold Supplies</li>
+                                <li>Air Fresheners</li>
+                                <li>Cleaning Gloves</li>
+                                <li>Liquid Detergents</li>
+                                <li>Taps & Faucet</li>
+                                <li>Toothbrush Holder</li>
+                                <li>Bath & Kitchen Fittings</li>
+                                <li>Bathroom Accesories</li>
+                            </ul>
+                        </li>
+                    </ul>
             </div>
-            <div class="quickdiv">
+            <div id="appliances" class="quickdiv">
                 <img src="https://i.ibb.co/PgcTtJH/appliance.png" alt="appliances" />
                 <ul>
-                    <li style="margin-left: -7%;" class="menu">Appliances <i class="fa fa-angle-down"></i></li>
-                </ul>
+                    <li style="margin-left: -7%;" class="menu">Appliances<i class="fa fa-angle-down"></i></li>
+                    <ul class="applianceHoverDiv list">
+                        <li>Televisions</li>
+                        <li>Washing Machines</li>
+                        <li>Air Conditioners</li>
+                        <li>Refrigerators</li>
+                        <li>Kitchen Appliances</li>
+                        <li>Home Appliances</li>
+                        <li>Seasonal Appliances</li>
+                        <li>Premium Appliances</li>
+                        <li>Buying Guides</li>
+                        <li>Flipkart Benifits</li>
+                        <ul>
+                        </ul>
             </div>
             <div class="quickdiv">
-                <img src="https://i.ibb.co/mFd2KCk/11-plane-png-image.png" alt="travel" width="180px"/>
+                <img src="https://i.ibb.co/mFd2KCk/11-plane-png-image.png" alt="travel" width="180px" />
                 <ul>
                     <li style="margin-left: 22%;" class="menu">Travel</li>
                 </ul>
             </div>
-            <div class="quickdiv">
+            <div id="toys" class="quickdiv">
                 <img src="https://i.ibb.co/6XL187h/dff3f7adcf3a90c6.png" alt="toys" />
                 <ul style="text-align: center; margin-left: -2%;">
-                    <li style="margin-left: -5%;" class="menu">Beauty, Toys & more <i class="fa fa-angle-down"></i></li>
-                </ul>
+                    <li style="margin-left: -5%;" class="menu">Beauty,Toys & more <i class="fa fa-angle-down"></i></li>
+                    <ul class="toysHoverDiv list">
+                        <li>Beauty & Personal Care</li>
+                        <li>Men's Grooming</li>
+                        <li>Food & Drinks</li>
+                        <li>Nutrition & Health Care</li>
+                        <li>Baby Care</li>
+                        <li>Toys & school Supplies</li>
+                        <li>Sports & Fitness</li>
+                        <li>Books & Music</li>
+                        <li>Stationery & Office Supplies</li>
+                        <li>Auto Accesories</li>
+                        <ul>
+                        </ul>
             </div>
+        
         </div>
+    
         <div style="z-index: -50;" id="myslider" class="carousel slide" data-ride="carousel"
             style="width: 100%; height: 250px;margin-left: 0;">
             <ol class="carousel-indicators">
@@ -481,12 +647,13 @@
                 <span id="right" class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
-        <div class="marquee  list" >
+        <div class="marquee  list">
             <marquee scrollamount="12">
-                <h1 id="marquee">We offer you variety of products with home delivery, its your time to make best choices of your needs</h1>
+                <h1 id="marquee">We offer you variety of products with home delivery, its your time to make best choices
+                    of your needs</h1>
             </marquee>
         </div>
-     
+
         <div id="loginModal" class="container1">
             <div class="subContainer">
                 <h1>Login</h1>
@@ -498,17 +665,17 @@
                 <div id="logodiv">
                     <img src="https://i.ibb.co/7YQg0Ty/444-4447300-grocery-bag-clip-art.png" alt="cartLogo" />
                 </div>
-    
+
             </div>
             <div class="maincontainer">
-              <span onclick="closeModal()" id="close"><i class="fa fa-close"></i></span> 
+                <span onclick="closeModal()" id="close">X</span>
                 <form action="#" id="form" class="loginform">
                     <input id="enteredUser" placeholder="Enter Email/MobileNumber" type="text" />
                     <input id="enteredpassword" placeholder="Enter Password" type="password" />
                     <div class="forgotpass"><a href="">Forgot Password ?</a></div>
                     <div class="terms">By continuing, you agree to Flipkart's <a href="">Terms of Use</a> and <a
                             href="">Privacy Policy</a> .</div>
-                        
+
                     <button onclick="validateLogin()" id="formlogin" class="login">LOGIN</button>
                     <div style="text-align: center;color: gray;font-size: 17px;font-weight: bold;margin-top: 5%;">
                         OR

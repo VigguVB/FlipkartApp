@@ -2,18 +2,17 @@ body{
     width: 100%;
     font-family: Arial,sans-serif;
     margin: 0;
-    padding: 0; 
-    border: 0; 
-    outline: 0; 
-    font-size: 100%; 
-    vertical-align: baseline; 
-    background-color: #8080804d;
+
 }
+
 .headerdiv{
     width: 100%;
     height: 56px;
     background-color: #2874f0;
     position: relative;
+    margin-top: -4%;
+    position: fixed;
+    z-index: 100;
 }
 
 #name{
@@ -28,7 +27,7 @@ body{
     color: rgb(246, 250, 12);
     font-size: 11px;
     margin-left: 13%;
-    margin-top: 0.3%;
+    margin-top: 0.2%;
     font-weight: 600;
 }
 #searchdiv{
@@ -47,7 +46,7 @@ body{
     color: #2874f0;
     margin-left: -5%;
 }
-.nav{
+/* .nav{
     width: 500px;
     height: 45px;
     float: left;
@@ -56,12 +55,17 @@ body{
     color: white;
     font-size: 17px;
     font-weight: bold;
-}
+} */
 
 #account{
-    margin-top: 2.2%;
+    margin-top: -2.5%;
     height: 42px;
-    width: fit-content;
+    margin-left: 60% ;
+    float: left;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;  
+
 }
 
 .accountHoverDiv{
@@ -97,10 +101,13 @@ body{
     color: #2874f0;
 }
 #more{
-    margin-top: -8.5%;
+    margin-top: -2.9%;
     float: left;
-    margin-left: 35%;
-    height: 42px;
+    margin-left: 70%;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    height: 40px;
 }
 #more:hover .moreHoverDiv{
     visibility: visible;
@@ -138,9 +145,12 @@ body{
 }
 #cart{
     color: white;
-    margin-top: -8.8%;
-    float: left;
-    margin-left: 60%;
+    margin-top: -2.6%;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    height: 40px;
+    margin-left: 79%;
 }
 #modecontainer{
     width: 200px;
@@ -174,9 +184,11 @@ body{
     height: 130px;
     box-shadow: inset 2px 2px 16px 0px #000000d3;
     padding-left: 1%;
+    margin-top: 4%;
+    
 }
 .quickdiv{
-    width: 150px;
+    width: 145px;
     height: 110px;
     float: left;
     margin-top: 0.5%;
@@ -229,7 +241,7 @@ body{
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     display: none;
     position: relative;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -255,13 +267,13 @@ body{
 .menTopWear{
     width: 240px;
     margin-top: -19%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -289,13 +301,13 @@ body{
 .menBottomWear{
     width: 240px;
     margin-top: -38%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -324,13 +336,13 @@ body{
 .womenEthenicWear{
     width: 240px;
     margin-top: -57.1%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -358,13 +370,13 @@ body{
 .womenWesternWear{
     width: 240px;
     margin-top: -76.2%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -391,13 +403,13 @@ body{
 .mensFootwear{
     width: 240px;
     margin-top: -95.4%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -424,13 +436,13 @@ body{
 .womensFootwear{
     width: 240px;
     margin-top: -114.4%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -457,13 +469,13 @@ body{
 .watches{
     width: 240px;
     margin-top: -114.4%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -490,13 +502,13 @@ body{
 .bags{
     width: 240px;
     margin-top: -133.4%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -523,13 +535,13 @@ body{
 .fashionkids{
     width: 240px;
     margin-top: -171.8%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -556,13 +568,13 @@ body{
 .essentials{
     width: 240px;
     margin-top: -190.8%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -589,13 +601,13 @@ body{
 .winter{
     width: 240px;
     margin-top: -209.8%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -628,7 +640,7 @@ body{
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     display: none;
     position: relative;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -655,13 +667,13 @@ body{
 .audio{
     width: 240px;
     margin-top: -18.9%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);  
 }
@@ -687,13 +699,13 @@ body{
 .camera{
     width: 240px;
     margin-top: -56.9%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -719,13 +731,13 @@ body{
 .peripherals{
     width: 240px;
     margin-top: -75.9%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -750,13 +762,13 @@ body{
 .gaming{
     width: 240px;
     margin-top: -95.2%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -781,13 +793,13 @@ body{
 .personal{
     width: 240px;
     margin-top: -114.2%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -812,13 +824,13 @@ body{
 .lap-accessories{
     width: 240px;
     margin-top: -133.4%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -843,13 +855,13 @@ body{
 .lap-desktop{
     width: 240px;
     margin-top: -152.4%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -875,13 +887,13 @@ body{
 .mobile-accesory{
     width: 240px;
     margin-top: -171.6%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -907,13 +919,13 @@ body{
 .smart-home{
     width: 240px;
     margin-top: -95%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -939,13 +951,13 @@ body{
 .smart-wearables{
     width: 240px;
     margin-top: -57%;
-    margin-left: 86%;
+    margin-left: 84%;
     opacity: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
     visibility: hidden;
     position: absolute;
-    z-index: 50;
+    z-index: 100;
     border-radius: 4px;
     color: hsla(0, 0%, 0%, 0.918);   
 }
@@ -966,7 +978,388 @@ body{
 .smart-wearables>li:hover{
     color: #2874f0;
 }
+/* Storage*/
+.storage{
+    width: 240px;
+    margin-top: -114.3%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.storage>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#storage:hover .storage{
+    visibility: visible;
+}
+.storage>li:hover{
+    color: #2874f0;
+}
 
+/* Home hover div start */
+
+.homeHoverDiv{
+    width: 240px;
+    margin-top: 15%;
+    margin-left: -85%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    display: none;
+    position: relative;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);  
+}
+
+.homeHoverDiv>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500; 
+}
+#home:hover .homeHoverDiv{
+    display: block;
+}
+
+.homeHoverDiv>li:hover{
+    color: #2874f0;
+}
+/* Home Furnishing*/
+.homeFurnishing{
+    width: 240px;
+    margin-top: -18.9%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.homeFurnishing>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#homeFurnishing:hover .homeFurnishing{
+    visibility: visible;
+}
+.homeFurnishing>li:hover{
+    color: #2874f0;
+}
+/* livingRoom*/
+.livingRoom{
+    width: 240px;
+    margin-top: -38.3%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.livingRoom>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#livingRoom:hover .livingRoom{
+    visibility: visible;
+}
+.livingRoom>li:hover{
+    color: #2874f0;
+}
+
+/* Kitchen & Dining*/
+.kitchen{
+    width: 240px;
+    margin-top: -57.7%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.kitchen>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#kitchen:hover .kitchen{
+    visibility: visible;
+}
+.kitchen>li:hover{
+    color: #2874f0;
+}
+/* Homedecorations*/
+.homeDecor{
+    width: 240px;
+    margin-top: -77.1%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.homeDecor>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#homeDecor:hover .homeDecor{
+    visibility: visible;
+}
+.homeDecor>li:hover{
+    color: #2874f0;
+}
+/* Tools & Utility*/
+.tools{
+    width: 240px;
+    margin-top: -96.5%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.tools>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#tools:hover .tools{
+    visibility: visible;
+}
+.tools>li:hover{
+    color: #2874f0;
+}
+/* Lightings & Electricals*/
+.lightings{
+    width: 240px;
+    margin-top: -115.9%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.lightings>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#lightings:hover .lightings{
+    visibility: visible;
+}
+.lightings>li:hover{
+    color: #2874f0;
+}
+
+/* Space saving*/
+.space{
+    width: 240px;
+    margin-top: -135.3%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.space>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#space:hover .space{
+    visibility: visible;
+}
+.space>li:hover{
+    color: #2874f0;
+}
+/* Cleaning & Bath */
+.cleaning{
+    width: 240px;
+    margin-top: -154.7%;
+    margin-left: 84%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);   
+}
+.cleaning>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500;   
+}
+#cleaning:hover .cleaning{
+    visibility: visible;
+}
+.cleaning>li:hover{
+    color: #2874f0;
+}
+/* applianceHoverDiv start*/
+.applianceHoverDiv{
+    width: 240px;
+    margin-top: 15%;
+    margin-left: -38%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    display: none;
+    position: relative;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);  
+}
+
+.applianceHoverDiv>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500; 
+}
+#appliances:hover .applianceHoverDiv{
+    display: block;
+}
+
+.applianceHoverDiv>li:hover{
+    color: #2874f0;
+}
+/* Toys Hover div start*/
+.toysHoverDiv{
+    width: 240px;
+    margin-top: 15%;
+    margin-left: -25%;
+    opacity: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.781);
+    display: none;
+    position: relative;
+    z-index: 100;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.918);  
+}
+
+.toysHoverDiv>li{
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 0.5px solid rgba(143, 138, 138, 0.185);
+    width: 100%;
+    margin-left: -5%;
+    text-align: left;
+    margin-right: -10%;
+    font-size: 15px;
+    font-weight: 500; 
+}
+#toys:hover .toysHoverDiv{
+    display: block;
+}
+
+.toysHoverDiv>li:hover{
+    color: #2874f0;
+}
 /* Marquee*/
 
 #marquee{
@@ -995,11 +1388,13 @@ body{
     z-index: 100;
     display: none;
 }
-#close{
-   font-size: 40px; 
-    margin-left: 99%;
-    color: black;
+#close {
+    font-size: 40px;
+    margin-left: 27.3%;
+    color: white;
     font-weight: 500;
+    margin-top: -0.9%;
+    position: absolute;
 }
 .subContainer{
     width: 40%;
@@ -1122,6 +1517,7 @@ body{
     width: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
+    
 }
 .containerHeader{
     width: 99%;
@@ -1134,6 +1530,7 @@ body{
     font-size: 25px;
     font-weight: 600;
     color: hsla(0, 0%, 0%, 0.842);
+    font-family: Hack;
 }
 .viewbtn{
     float: right;
@@ -1154,6 +1551,7 @@ body{
     margin-bottom: 1%;
     border-bottom: 0.5px rgba(128, 128, 128, 0.911);
     height: 400px;
+    
 
 }
 .dealitem{
@@ -1275,3 +1673,265 @@ strike{
     text-align: center;
     padding-top: 1.5%;
 }
+
+/* Resposnive */
+
+
+ @media only screen and (max-width: 1490px) {
+    .dealitemsContainer{
+        display: flex;
+    }
+    .dealitem{
+        height: 340px;
+        width: 220px;
+    }
+    .subContainer{
+        margin-top: -0.4%;
+    }
+    .maincontainer{
+        margin-top: -0.4%;
+    }
+  }
+  
+  @media only screen and (max-width: 1425px) {
+   .quicksearch{
+    display: flex;
+   }
+   .subContainer{
+    margin-top: 0%;
+}
+.maincontainer{
+    margin-top: 0;
+}
+   #cart{
+       margin-top: -2.5%;
+   }
+   #more{
+       margin-top: -3%;
+   }
+  }
+  @media only screen and (max-width: 1380px) {
+      #searchdiv{
+          margin-top: -3.5%;
+      }
+      .subContainer{
+        margin-top: 0%;
+    }
+   #account{
+       margin-top: -3%;
+       margin-left: 65%;
+   }
+   #more{
+       margin-left: 74%;
+       margin-top: -3.15%;
+   }
+   #cart{
+       margin-left: 82%;
+       margin-top: -3.2%;
+   }
+   #modecontainer {
+    margin-left: 39%;
+    margin-top: -18.5%;
+}
+  } 
+  @media only screen and (max-width: 1305px){
+    #account{
+       margin-left: 67%; 
+       margin-top: -2.9%;
+    }
+    #more{
+       margin-left: 75%;
+       margin-top: -3.3%;
+    }
+    #cart{
+        margin-left: 82%;
+        margin-top: -3.15%;
+    }
+    #modecontainer {
+       margin-left: 37%;
+        margin-top: -19%;
+    }
+    #searchdiv{
+        margin-top: -3.5%;
+    }
+    .quickdiv{
+        width: 130px;
+    }
+    .quickdiv>ul{
+        margin-top: 6%;
+    }
+    .quickdiv>ul>li{
+        display: flex;
+    }
+    .dealitemsContainer{
+        height: 750px;
+        width: 100%;
+    }
+    .dealitem{
+        width: 350px; 
+    }
+  }
+    @media only screen and (max-width: 320px) {
+        #name {
+            margin-left: 4%;
+        }
+        #tagname{
+            margin-left: 5%;
+        }
+        #searchdiv{
+            margin-top: -4.5%;
+            margin-left: 17%;
+        }
+        #searchbar{
+            width: 405px
+        }
+        #account {
+            margin-top: -3.5%;
+            margin-left: 63%;
+        }
+        #more {
+            margin-top: -4.4%;
+            margin-left: 73%;
+        }
+        #cart {
+            margin-top: -3.7%;
+            margin-left: 82%;
+        }
+        #modecontainer {
+            margin-left: 40%;
+            margin-top: -25%;
+        }
+        .quicksearch {
+            height: 215px;
+        }
+        .quickdiv {
+            width: 147px;
+            float: left;
+            margin-left: 3.5%;
+            margin-right: 0.5%;
+        }
+        .quickdiv>ul {
+            margin-top: 6%;
+        }
+        .dealitemsContainer {
+            height: 730px;
+        }
+        .dealitem{
+            width: 305px;
+            height: 330px;
+        }
+        .list1{
+            margin-left: 7%;
+        }
+} 
+
+
+@media only screen and (max-width: 390px){
+    #name {
+        margin-left: 4%;
+    }
+    #tagname{
+        margin-left: 5%;
+    }
+    #searchdiv{
+        margin-top: -4%;
+        margin-left: 15%;
+    }
+    #searchbar{
+        width: 360px;
+    }
+    #account {
+        margin-top: -3.5%;
+        margin-left: 58%;
+    }
+    #more {
+        margin-top: -4.3%;
+        margin-left: 69%;
+    }
+    #cart{
+        margin-top: -3.5%;
+    }
+    #modecontainer {
+        margin-left: 45%;
+        margin-top: -21%;
+    }
+    .quicksearch{
+        height: 220px;
+    }
+    .quickdiv {
+        width: 155px;
+        margin-left: 1.5%;
+        margin-right: 1.2%;
+    }
+    .quickdiv>ul{
+        margin-top: 7%;
+    }
+    .dealitemsContainer {
+        height: 730px;
+    }
+    .dealitem{
+        width: 305px;
+        height: 330px;
+    }
+    .list1{
+        margin-left: 7%;
+    }
+}
+ 
+
+ @media only screen and (max-width: 985px){
+    #name {
+        margin-left: 6%;
+    }
+    #tagname{
+        margin-left: 8%;
+    }
+    #searchdiv{
+        margin-top: -4.5%;
+        margin-left: 18%;
+    }
+    #searchbar{
+        width: 420px;
+    }
+    #account {
+        margin-left: 64%;
+        margin-top: -3.6%;
+    }
+    #more {
+        margin-left: 75%;
+        margin-top: -4.4%;
+    }
+    #cart {
+        margin-left: 83.5%;
+        margin-top: -3.9%;
+    }
+    #modecontainer {
+        width: 99px;
+        margin-left: 37.5%;
+        margin-top: -30%;
+    }
+    .quicksearch{
+        padding-left: 0%;
+        height: 132px;
+    }
+    .quickdiv {
+        margin-left:-2.5%;
+        margin-top: 2.5%;
+    }
+    .quickdiv>ul{
+        margin-top: 7%;
+    }
+    .menu{
+        margin-top: -0.8%;
+    }
+    .dealitemsContainer {
+        height: 735px;
+        display: inline-block;
+    }
+    .dealitem{
+        width: 305px;
+    }
+    .list1{
+        margin-left: 8%;
+    }
+ }
