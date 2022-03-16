@@ -8,13 +8,24 @@
     <link rel="icon" href="https://i.ibb.co/bb64gtt/flipkart-logo.png" alt="flipkart-logo">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="home.js"></script>
+    <style>
+        a {
+            color: hsla(0, 0%, 0%, 0.918);
+        }
+
+        a:hover {
+            color: #2874f0;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
-<body onload="loginHandler()">
-    
+<body>
+
     <div class="headerdiv">
         <div id="name">
             <i>Flipkart</i>
@@ -31,11 +42,11 @@
         <div id="account">
             <span onclick="loginClicked()" id="loginName">My Account</span>
             <ul class="accountHoverDiv list">
-                <li> <i class="fa fa-user-circle-o checked"></i> My Profile</li>
+                <li><i class="fa fa-user-circle-o checked"></i><a href="./profile.html">My Profile</a></li>
                 <li><i class="fa fa-bolt checked"></i> SuperCoin Zone</li>
                 <li><i class="fa fa-shopping-bag checked"></i> Orders</li>
                 <li><i class="fa fa-heart checked"></i> Wishlist</li>
-                <li><i class="fa fa-vcard checked"></i> My Chats</li>
+                <li><i class="fa fa-comment checked"></i> My Chats</li>
                 <li><i class="fa fa-ticket checked"></i> Coupons</li>
                 <li><i class="fa fa-drivers-license checked"></i> Gift Cards</li>
                 <li><i class="fa fa-power-off checked"></i> Logout</li>
@@ -618,9 +629,13 @@
                         <ul>
                         </ul>
             </div>
-        
+
         </div>
-    
+        <div id="coupon" class="coupon">
+            <img src="https://i.ibb.co/C70x7f4/flipkart-deals-of-the-day.jpg" alt="coupon" />
+            <span onclick="closeCoupon()" class="close-coupon">X</span>
+        </div>
+
         <div style="z-index: -50;" id="myslider" class="carousel slide" data-ride="carousel"
             style="width: 100%; height: 250px;margin-left: 0;">
             <ol class="carousel-indicators">

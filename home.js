@@ -35,7 +35,8 @@ function loginClicked() {
   if (a === "LOGIN") {
     loginModal.style.display = "block";
     document.getElementById('marquee').style.display = "none";
-    document.body.style.backgroundColor = "rgba(0, 0, 0, 0.75)"
+    document.body.style.backgroundColor = "rgba(0, 0, 0, 0.75)";
+    document.getElementsByClassName('quicksearch')[0].style.backgroundColor = "rgba(0, 0, 0, 0.08)"
   }
 }
 function validateLogin() {
@@ -78,4 +79,8 @@ const closeModal = () => {
   
   document.body.style.backgroundColor = "white";
   document.getElementById('marquee').style.display = "block";
+}
+
+function closeCoupon(){
+  document.getElementById("coupon").style.display = "none"
 }
