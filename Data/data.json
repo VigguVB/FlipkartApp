@@ -1,0 +1,553 @@
+[
+    {
+        "id": 1,
+        "name": "Pillsbury Chakki Fresj Atta",
+        "category_id": 1,
+        "new_price": 419,
+        "old_price": 500,
+        "offer": "16% Off",
+        "quantity": "10kg",
+        "image": "https://i.ibb.co/NSgYtXH/chakkiatta.webp"
+    },
+    {
+        "id": 2,
+        "name": "Super Rice Bran Oil",
+        "category_id": 1,
+        "new_price": 159,
+        "old_price": 199,
+        "offer": "20% Off",
+        "quantity": "1 L",
+        "image": "https://i.ibb.co/HPL7N1H/th-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Meri Masala Maggi",
+        "category_id": 1,
+        "new_price": 60,
+        "old_price": 75,
+        "offer": "20% Off",
+        "quantity": "350 g",
+        "image": "https://i.ibb.co/WckG3KL/th-2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "India Gate Basmathi Rice",
+        "category_id": 1,
+        "new_price": 180,
+        "old_price": 150,
+        "offer": "17% Off",
+        "quantity": "1 kg",
+        "image": "https://i.ibb.co/nkJYYqP/730408.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Kellog's Corn Flakes",
+        "category_id": 1,
+        "new_price": 60,
+        "old_price": 70,
+        "offer": "16% Off",
+        "quantity": "1 Kg",
+        "image": "https://i.ibb.co/Gk3W6Nn/th-3.jpg"
+    },
+    {
+        "id": 6,
+        "name": "RealMe 9 Pro",
+        "category_id": 2,
+        "new_price": 19999,
+        "old_price": 21999,
+        "offer": "10% Off",
+        "color": "Blue",
+        "image": "https://i.ibb.co/WGq718Y/Realme-9-Pro-represent-460x460.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Redmi note 4",
+        "category_id": 2,
+        "new_price": 11999,
+        "old_price": 13999,
+        "offer": "15% Off",
+        "color": "Black",
+        "image": "https://i.ibb.co/WBZd3PW/4519-thickbox-default.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Samsung Galaxy A31",
+        "category_id": 2,
+        "new_price": 20999,
+        "old_price": 22999,
+        "offer": "10% Off",
+        "color": "Prism Blue",
+        "image": "https://i.ibb.co/MydQvpQ/th-4.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Oppo F17 Pro",
+        "category_id": 2,
+        "new_price": 19999,
+        "old_price": 21999,
+        "offer": "11% Off",
+        "color": "Matte Black",
+        "image": "https://i.ibb.co/F58CQfP/oppo-F17-pro-Matte-Black-5.jpg"
+    },
+    {
+        "id": 10,
+        "name": "One Plus 9 Pro",
+        "category_id": 2,
+        "new_price": 60999,
+        "old_price": 64999,
+        "offer": "8% Off",
+        "color": "Blue",
+        "image": "https://i.ibb.co/D1F50Pp/Oneplus-9-Pro.jpg"
+    },
+    {
+        "id": 11,
+        "name": "ONIDA Air Conditioner",
+        "category_id": 3,
+        "new_price": 27000,
+        "old_price": 30000,
+        "offer": "10% Off",
+        "image": "https://i.ibb.co/hd2H6xg/Onida-Trendy-Nova-SA185-TDN-1-5-Ton-Split-AC.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Voltas Air Conditioner",
+        "category_id": 3,
+        "new_price": 27500,
+        "old_price": 30000,
+        "offer": "9% Off",
+        "image": "https://i.ibb.co/bzBHyF5/Split-AC10.png"
+    },
+    {
+        "id": 13,
+        "name": "LG Air Cooler",
+        "category_id": 3,
+        "new_price": 20999,
+        "old_price": 22999,
+        "offer": "10% Off",
+        "image": "https://i.ibb.co/cbLFyz1/dan-lanh-casette-multi-lg-amnc24gtta0-2-5hp-inverter-1.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Voltas Air Conditioner",
+        "category_id": 3,
+        "new_price": 29000,
+        "old_price": 32000,
+        "offer": "10% Off",
+        "image": "https://i.ibb.co/6sn3qNt/th-5.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Onida Air Conditioner",
+        "category_id": 3,
+        "new_price": 15999,
+        "old_price": 18999,
+        "offer": "18% Off",
+        "image": "https://i.ibb.co/zVg5FDS/Onida-18-Ton-D2-1-5-Ton-Window-AC.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Teddy Bear",
+        "category_id": 4,
+        "new_price": 400,
+        "old_price": 500,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/Dr4GdQ3/Teddy-Bear-Orange.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Organ Toddler Bus for Kids",
+        "category_id": 4,
+        "new_price": 1499,
+        "old_price": 1999,
+        "offer": "25% Off",
+        "image": "https://i.ibb.co/xm7xkWw/th-6.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Full Little Toys Train",
+        "category_id": 4,
+        "new_price": 3999,
+        "old_price": 4999,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/vdwwVch/th-7.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Cute Barbie Doll",
+        "category_id": 4,
+        "new_price": 799,
+        "old_price": 1000,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/871FZCh/th-8.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Cosmetic Play Set Kids",
+        "category_id": 4,
+        "new_price": 1299,
+        "old_price": 1500,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/7gStcZv/2015-Hot-Item-Cosmetic-Toys-Fashion-Dresser-Toys-Role-Play-Girl-s-Toy-Beauty-Makeup-Set-Pink-Childre.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Men T shirt Combo",
+        "category_id": 5,
+        "new_price": 699,
+        "old_price": 899,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/zFXcjzy/th-9.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Mens' Nike T Shirt Red",
+        "category_id": 5,
+        "new_price": 359,
+        "old_price": 501,
+        "offer": "15% Off",
+        "image": "https://i.ibb.co/KNyqN4B/th-10.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Camo Chest Pocket O neck",
+        "category_id": 5,
+        "new_price": 499,
+        "old_price": 799,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/6nC8kgF/Camo-Chest-Pocket-O-Neck-Elastic-Cuff-Long-Sleeve-Cotton-T-Shirts-for-Men.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Mens' Cotton T Shirt",
+        "category_id": 5,
+        "new_price": 499,
+        "old_price": 699,
+        "offer": "23% Off",
+        "image": "https://i.ibb.co/jGTb41J/th-11.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Sport T shirt for Men",
+        "category_id": 5,
+        "new_price": 599,
+        "old_price": 699,
+        "offer": "12% Off",
+        "image": "https://i.ibb.co/DLnDsdD/wholesale-mens-sport-wear-fitted-bulk-plain-gym-t-shirts-2.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Men T shirt Combo",
+        "category_id": 5,
+        "new_price": 699,
+        "old_price": 899,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/pRcZZwF/81-AMky-Qz-FCL-UL1500.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Mens' Nike T Shirt",
+        "category_id": 5,
+        "new_price": 359,
+        "old_price": 501,
+        "offer": "15% Off",
+        "image": "https://i.ibb.co/RSnWJRp/th-12.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Camo Chest Pocket O neck",
+        "category_id": 5,
+        "new_price": 499,
+        "old_price": 799,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/ZWyG2jS/th-13.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Mens' Cotton T Shirt",
+        "category_id": 5,
+        "new_price": 499,
+        "old_price": 699,
+        "offer": "23% Off",
+        "image": "https://i.ibb.co/ZXmJcyF/2017-New-100-Cotton-T-Shirts-Premium-Men-DTS-Mens-US-Cotton-Graphic-T-shirt.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Sport T shirt for Men",
+        "category_id": 5,
+        "new_price": 599,
+        "old_price": 699,
+        "offer": "12% Off",
+        "image": "https://i.ibb.co/NpPntZ5/350c0710-e575-48ae-a9d1-d3a20b7fee48-7c81020657802fdddf9e606b911b3a23.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Men's Formal Shirt Bay Blue",
+        "category_id": 5,
+        "new_price": 799,
+        "old_price": 899,
+        "offer": "15% Off",
+        "image": "https://i.ibb.co/N2XGQYR/Shirts-1-1.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Men's Formal Pink",
+        "category_id": 5,
+        "new_price": 599,
+        "old_price": 799,
+        "offer": "15% Off",
+        "image": "https://i.ibb.co/TLWH3mh/950969513d6daf9de150ea3b94e33c28.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Men's White Formals",
+        "category_id": 5,
+        "new_price": 599,
+        "old_price": 799,
+        "offer": "15% Off",
+        "image": "https://i.ibb.co/fXsVgPR/SEPMA020-N01-129156-800px-1040px.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Men's Formal Shirts Combo",
+        "category_id": 5,
+        "new_price": 699,
+        "old_price": 899,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/QrNJ7F2/th-14.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Men's kurta Golden",
+        "category_id": 5,
+        "new_price": 1199,
+        "old_price": 1499,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/zSzP1z2/9472-1.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Men's T Kurta Wedding",
+        "category_id": 5,
+        "new_price": 2999,
+        "old_price": 3999,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/LkSjYKg/Wedding-Kurta-With-Pajama-1.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Men's Kurta Pyjama Wedding",
+        "category_id": 5,
+        "new_price": 4999,
+        "old_price": 5599,
+        "offer": "6% Off",
+        "image": "https://i.ibb.co/N9rMKn0/Embroidered-Dupion-Silk-Kurta-Pajama.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Men's Blazers Causal",
+        "category_id": 5,
+        "new_price": 599,
+        "old_price": 799,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/ygQL9VC/th-15.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Men's Casual shirt",
+        "category_id": 5,
+        "new_price": 599,
+        "old_price": 799,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/dcV3Hjy/multicolor-checked-casual-shirt.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Men's Nehru Coat",
+        "category_id": 5,
+        "new_price": 499,
+        "old_price": 699,
+        "offer": "18% Off",
+        "image": "https://i.ibb.co/mSRMwLs/th-16.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Women Cotton Silk Saree",
+        "category_id": 6,
+        "new_price": 799,
+        "old_price": 899,
+        "offer": "15% Off",
+        "image": "https://i.ibb.co/5c7nkvh/91-JEE-y-Upr-L.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Women Cotton Silk Saree",
+        "category_id": 6,
+        "new_price": 799,
+        "old_price": 899,
+        "offer": "15% Off",
+        "image": "https://i.ibb.co/tZcZRnP/c7d1b0f050a82063b5ba02464da13bc7.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Women Wedding Saree",
+        "category_id": 6,
+        "new_price": 3599,
+        "old_price": 4799,
+        "offer": "14% Off",
+        "image": "https://i.ibb.co/3cy3x8H/s-l1600.jpg"
+    },
+    {
+        "id": 44,
+        "name": "Women Saree Kanjeevaram Wedding",
+        "category_id": 6,
+        "new_price": 6999,
+        "old_price": 7999,
+        "offer": "10% Off",
+        "image": "https://i.ibb.co/cx63J4m/561d19485627d87e46107b5750cb14e1.jpg"
+    },
+    {
+        "id": 45,
+        "name": "Women Sport T Shirt",
+        "category_id": 6,
+        "new_price": 599,
+        "old_price": 659,
+        "offer": "10% Off",
+        "image": "https://i.ibb.co/vY4yXcN/Nitrite-Assorted-Sports-Sleeveless-Women-SDL659878859-2-5ba21.jpg"
+    },
+    {
+        "id": 46,
+        "name": "Women Kurta Stylish",
+        "category_id": 6,
+        "new_price": 399,
+        "old_price": 499,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/HKpbMhr/th-17.jpg"
+    },
+    {
+        "id": 47,
+        "name": "Glow Fashion Kurta Women",
+        "category_id": 6,
+        "new_price": 359,
+        "old_price": 399,
+        "offer": "11% Off",
+        "image": "https://i.ibb.co/Tvzgbzy/71-V2x-Jdufn-L-UL1500.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Women Cotton Nighty",
+        "category_id": 6,
+        "new_price": 250,
+        "old_price": 300,
+        "offer": "22% Off",
+        "image": "https://i.ibb.co/Vv8DXDM/115-GZ-1388992745.jpg"
+    },
+    {
+        "id": 49,
+        "name": "Women Casual Shirt",
+        "category_id": 6,
+        "new_price": 599,
+        "old_price": 799,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/dcV3Hjy/multicolor-checked-casual-shirt.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Women Tops",
+        "category_id": 6,
+        "new_price": 499,
+        "old_price": 699,
+        "offer": "18% Off",
+        "image": "https://i.ibb.co/WWQSBzg/4911b7ec-90ba-40be-a70d-3682a5341cbb-90135d550433d03873ee3574046ed73c.jpg"
+    },
+    {
+        "id": 51,
+        "name": "Kids wear",
+        "category_id": 7,
+        "new_price": 299,
+        "old_price": 399,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/J3RKCmr/kids-tops-250x250.jpg"
+    },
+    {
+        "id": 52,
+        "name": "Kids wear",
+        "category_id": 7,
+        "new_price": 299,
+        "old_price": 359,
+        "offer": "15% Off",
+        "image": "https://i.ibb.co/2ZCR9tj/th-18.jpg"
+    },
+    {
+        "id": 53,
+        "name": "Kids wear combo",
+        "category_id": 7,
+        "new_price": 999,
+        "old_price": 1299,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/gPdHSCW/th-19.jpg"
+    },
+    {
+        "id": 54,
+        "name": "Boat Rockerz Wired Earphone",
+        "category_id": 8,
+        "new_price": 599,
+        "old_price": 659,
+        "offer": "10% Off",
+        "image": "https://i.ibb.co/w62Pc32/bo-At-Rockerz-230-Sports-In-SDL740090144-4-02090.jpg"
+    },
+    {
+        "id": 55,
+        "name": "JBL Noise Cancelling Headphone",
+        "category_id": 8,
+        "new_price": 4999,
+        "old_price": 5999,
+        "offer": "13% Off",
+        "image": "https://i.ibb.co/265Yn1w/61-Ed-Lc-JVv-RL-SL1000.jpg"
+    },
+    {
+        "id": 56,
+        "name": "JBL Portable Speaker",
+        "category_id": 8,
+        "new_price": 999,
+        "old_price": 799,
+        "offer": "20% Off",
+        "image": "https://i.ibb.co/52cK7Tb/980615b0-0822-4d19-9671-3f901ebd5429-1-d176034e624332c1a07794b1e9524cf8.png"
+    },
+    {
+        "id": 57,
+        "name": "HP Laptops",
+        "category_id": 9,
+        "new_price": 46999,
+        "old_price": 49999,
+        "offer": "8% Off",
+        "image": "https://i.ibb.co/nnCwwXB/th-20.jpg"
+    },
+    {
+        "id": 58,
+        "name": "Dell laptops",
+        "category_id": 9,
+        "new_price": 44999,
+        "old_price": 47999,
+        "offer": "8% Off",
+        "image": "https://i.ibb.co/pv07Bfh/337171-dell-inspiron-14r-5437-1.jpg"
+    },
+    {
+        "id": 59,
+        "name": "Lenovo Laptops",
+        "category_id": 9,
+        "new_price": 49999,
+        "old_price": 52999,
+        "offer": "7% Off",
+        "image": "https://i.ibb.co/nRs5z7b/lenovo-81mv00mbus-ideapad-s145-celeron-4205u-1542747.jpg"
+    },
+    {
+        "id": 60,
+        "name": "Asus Laptops",
+        "category_id": 9,
+        "new_price": 41999,
+        "old_price": 44999,
+        "offer": "9% Off",
+        "image": "https://i.ibb.co/TgWWzFk/asus-x555la-db51-i5-4210u-1-7g-8gb-1tb-windows8-1-64-15-6-black-1067793.jpg"
+        
+    }
+]

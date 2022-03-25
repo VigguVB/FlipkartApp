@@ -1,0 +1,45 @@
+[{
+    "id": 1,
+    "name": "Groceries"
+},
+{
+    "id": 2,
+    "name": "Mobiles"
+},
+{
+    "id": 3,
+    "name": "AC"
+},
+{
+    "id": 4,
+    "name": "Beauty"
+},
+{
+    "id": 5,
+    "name": "MenFashion"
+},
+{
+    "id": 6,
+    "name": "WomenFashion"
+},
+{
+    "id": 7,
+    "name": "Kids"
+},
+{
+    "id": 8,
+    "name": "Audio"
+},
+{
+    "id": 9,
+    "name": "Computers"
+},
+{
+    "id": 10,
+    "name": "Television"
+},
+{
+    "id": 11,
+    "name": "Refrigerator"
+}
+]
